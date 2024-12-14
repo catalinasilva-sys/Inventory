@@ -1,0 +1,11 @@
+{
+   "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+         "#controllers/*": ["./src/controllers/*.js"],
+         "#models/*": ["./src/models/*.js"],
+         "#routes/*": ["./src/routes/*.js"],
+         "#middlewares/*": ["./src/middlewares/*.js"]
+      }
+   }
+}
