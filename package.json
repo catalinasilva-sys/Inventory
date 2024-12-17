@@ -1,5 +1,5 @@
 {
-  "name": "crud-api",
+  "name": "inventory-server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -15,15 +15,15 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "mongoose": "^8.8.2"
- },
- "imports": {
+  },
+  "imports": {
     "#controllers/*": "./src/controllers/*.js",
     "#models/*": "./src/models/*.js",
     "#routes/*": "./src/routes/*.js",
     "#middlewares/*": "./src/middlewares/*.js"
- },
- "devDependencies": {
+  },
+  "devDependencies": {
     "morgan": "^1.10.0",
     "nodemon": "^3.1.7"
- }
+  }
 }
