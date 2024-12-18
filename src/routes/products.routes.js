@@ -1,16 +1,17 @@
 const {
-   get,
-   add,
-   update,
-   delete: deleteProduct,
-   seed,
+  get,
+  add,
+  update,
+  delete: deleteProduct,
+  seed,
 } = require('#controllers/products.controller');
+const authMiddleware = require('#middlewares/auth.middleware');
 const router = require('express').Router();
 
-router.get('/', get);
-router.post('/', add);
-router.post('/seed', seed);
-router.put('/:id', update);
-router.delete('/:id', deleteProduct);
+router.get('/', authMiddleware, get);
+router.post('/', authMiddleware, add);
+router.post('/seed', authMiddleware, seed);
+router.put('/:id', authMiddleware, update);
+router.delete('/:id', authMiddleware, deleteProduct);
 
 module.exports = router;

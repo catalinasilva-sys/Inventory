@@ -1,31 +1,30 @@
 [
-   {
-     "item": "Camiseta",
-     "description": "Camiseta de algodón 100% con diseño exclusivo",
-     "category": "Ropa",
-     "price": 25.99,
-     "inStock": true
-   },
-   {
-     "item": "Zapatos deportivos",
-     "description": "Zapatos cómodos y ligeros para correr",
-     "category": "Calzado",
-     "price": 59.99,
-     "inStock": true
-   },
-   {
-     "item": "Auriculares inalámbricos",
-     "description": "Auriculares Bluetooth con cancelación de ruido",
-     "category": "Electrónica",
-     "price": 89.99,
-     "inStock": false
-   },
-   {
-     "item": "Mochila",
-     "description": "Mochila resistente con múltiples compartimentos",
-     "category": "Accesorios",
-     "price": 39.99,
-     "inStock": true
-   }
- ]
- 
+  {
+    "item": "Camiseta",
+    "description": "Camiseta de algodón 100% con diseño exclusivo",
+    "category": "Ropa",
+    "price": 25.99,
+    "inStock": true
+  },
+  {
+    "item": "Zapatos deportivos",
+    "description": "Zapatos cómodos y ligeros para correr",
+    "category": "Calzado",
+    "price": 59.99,
+    "inStock": true
+  },
+  {
+    "item": "Auriculares inalámbricos",
+    "description": "Auriculares Bluetooth con cancelación de ruido",
+    "category": "Electrónica",
+    "price": 89.99,
+    "inStock": false
+  },
+  {
+    "item": "Mochila",
+    "description": "Mochila resistente con múltiples compartimentos",
+    "category": "Accesorios",
+    "price": 39.99,
+    "inStock": true
+  }
+]
